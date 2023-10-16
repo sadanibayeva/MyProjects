@@ -1,0 +1,10 @@
+ .a{
+    width:250px;
+    height:150px;
+    background-color: aquamarine;
+    color:red;
+ }
+.hide{
+    display:none
+}
+

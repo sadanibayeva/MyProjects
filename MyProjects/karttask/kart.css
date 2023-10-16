@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.kontakt{
+    margin-top: 35px;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+}
+.birinci img{
+    width:300px;
+    height: 300px;
+}
+.ikinci h4{
+    font-size:25px;
+}
+.two{
+    display:flex;
+    margin-top:25px;
+}
+.two i{
+    font-size: 25px;
+    margin-top:5px;
+    margin-left:9px;
+}
+.ikinci h5{
+    margin-top:25px;
+    font-size: 25px;
+}
+.ikinci input{
+    accent-color: red;
+    width: 270px;
+    height: 4px;
+    margin-top: 30px;
+}
+.ikinci ul{
+    margin-top: 16px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.uc{
+    display: flex;
+}
+.uc img{
+    width: 50px;
+    height: 100px;
+}
+.uc i{
+    margin-left: 5px;
+    margin-top: 38px;
+}
+.uc h3{
+    margin-top: 35px;
+}
+.ilk{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.ilk1{
+    width: 90px;
+    height: 45px;
+    background-color: grey;
+}
+.ilk2{
+    width: 90px;
+    height: 45px;
+    background-color: grey;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.active::after{
+    content: attr(test);
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}

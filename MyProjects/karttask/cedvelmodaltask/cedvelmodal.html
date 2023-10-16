@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./cedvelmodal.css">
+</head>
+<body>
+    
+    <button class="add">Add Row</button>
+    <input class="axtar" placeholder="axtar...">
+
+<table border="1" width="70%">
+    <thead>
+        <tr>
+            <th>№</th>
+            <th>name</th>
+            <th>surname</th>
+            <th>age</th>
+            <th class="edit">edit</th>
+            <th class="remove">remove</th>
+        </tr>
+    </thead>
+
+    <tbody>
+           <!-- <tr>
+                <td>1</td>
+                <td>xedice</td>
+                <td>memmedova</td>
+                <td>16</td>
+                <td><i class="fa-solid fa-pen-to-square"></i></td>
+                <td><i class="fa-solid fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>esmer</td>
+                <td>melikzade</td>
+                <td>20</td>
+                <td><i class="fa-solid fa-pen-to-square"></i></td>
+                <td><i class="fa-solid fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sədan</td>
+                <td>Ibayeva</td>
+                <td>18</td>
+                <td><i class="fa-solid fa-pen-to-square"></i></td>
+                <td><i class="fa-solid fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>lidya</td>
+                <td>ehmedova</td>
+                <td>21</td>
+                <td><i class="fa-solid fa-pen-to-square"></i></td>
+                <td><i class="fa-solid fa-trash"></i></td>
+            </tr>-->
+
+    </tbody> 
+</table>
+
+    <div class="modal">
+        <i class="fa-sharp fa-solid fa-x"></i>
+        <input id="addname" placeholder="Name" >
+        <input id="addsurname" placeholder="surname" >
+        <input id="addage" placeholder="Age" >
+        <button class="create">create</button>
+    </div>
+
+    <div class="modal1">
+        <i class="fa-sharp fa-solid fa-x"></i>
+        <input id="Name">
+        <input id="surname">
+        <input id="Age">
+        <button class="update">update</button>
+    </div>
+
+
+    <script src="/cedvelmodaltask/cedvelmodal.js"></script>
+</body>
+</html>

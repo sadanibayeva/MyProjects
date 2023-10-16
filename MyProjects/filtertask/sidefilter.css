@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.eco{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.hisse1{
+    width:40%;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+}
+.hisse2{
+    width: 85%;
+    margin:auto;
+}
+.hisse2one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.hisse2one img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid darkgrey;
+}
+.active{
+    color: green;
+}
+.active::after{
+    content: url(http://ecoharvest.farm/img/shape/1.png);
+    display: block;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    margin-top:32px;
+    display:flex;
+    width:100%;
+    justify-content:center ;
+}
+.yazi{
+    width:40%;
+    height:30px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 8%;
+    margin-left: 5px;
+}
+.umumi{
+    width:85%;
+    margin: 25px auto;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+}
+.div{
+    width:30%;
+    height:600px;
+}
+.div h1{
+    text-align: center;
+}
+ul li{
+    list-style: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+ul{
+    height:200px;
+    border: 2px solid black;  
+}
+.icon{
+    margin-top:105px;
+}
+.icon i{
+    display:block;
+    margin: 2px;
+}

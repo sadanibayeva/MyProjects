@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.umumi{
+    width: 70%;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.div{
+    width: 26%;
+    height: 220px;
+    background-color: darkgray;
+}
+.part{
+    padding-top: 85px;
+    text-align: center;
+}
+.pagination{
+    width: 10%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gray{
+    background-color: darkgray;
+}
+.btnlar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.add{
+    background-color: black;
+    color: white;
+    width:150px;
+    height: 35px;
+    font-size:25px;
+    display: block;
+    margin-top: 25px;
+    margin-left:25px;
+}
+.axtar{
+    width: 70%;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+}
+table{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.remove{
+    width:8%;
+}
+.edit{
+    width:8%;
+}
+.fa-pen-to-square{
+    color:blue;
+}
+.fa-trash{
+    color: red;
+}
+.modal{
+    display: none;
+    background-color: darkgrey;
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    padding-top: 15px;
+}
+.fa-x{
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.modal1{
+    display: none;
+    background-color: darkgrey;
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    padding-top: 15px;
+}
+.fa-x{
+    float: right;
+    margin-right: 25px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.modal input{
+    width: 70%;
+    height: 40px;
+    display:block;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+
+}
+.create{
+    background-color: green;
+    width: 70px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+}
+.modal1 input{
+    width: 70%;
+    height: 40px;
+    display:block;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.update{
+    background-color: green;
+    width: 70px;
+    height: 40px;
+    display: block;
+    margin: 25px auto;
+}

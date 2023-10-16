@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+table{
+    position: relative;
+    margin: 50px auto;
+    display: none;
+}
+.say{
+    margin-left: 50px;
+    margin-top:35px;
+}
+.modal{
+    background-color: rgb(220, 215, 215);
+    width: 15%;
+    margin: auto;
+    line-height: 110px;
+    text-align: center;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    position: absolute;
+    top:275px;
+    left: 50px;
+    right: 0;
+}
+.tam{
+    background-color: green;
+    border:none;
+    color: white;
+}
+.natamam{
+    background-color: yellow;
+    border:none;
+    color: white;
+}
+.sifir{
+    border:none;
+    background-color: red;
+    color: white;
+}
+tbody td {
+    text-align: center;
+}
+tbody button{
+    padding: 5px;
+}
+.modal button{
+    padding: 5px;
+}
+.tam{
+    background-color: green;
+}
+.sifir{
+    background-color: red;
+}
+.natamam{
+    background-color: yellow;
+}
+.deyishmez{
+    pointer-events: none;
+}

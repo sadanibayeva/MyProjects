@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    overflow: hidden;
+    width: 100%;
+    height:860px;
+    background-color: white;
+    position: relative;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height:820px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.part{
+    width:30%;
+    height: 400px;  
+} 
+.sekil img{
+    margin-top: 30px;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+.sekill{
+    width:80%;
+    height: 650px;
+}
+.part .text{
+    background-color:aliceblue;
+    width: 95%;
+    height: 100px;
+    text-align: center;
+    font-size: 19px;
+} 
+.text h5{
+    padding-top: 25px;
+    font-size: 25px;
+}
+.modal{
+    margin: auto;
+    display: none;
+    background-color: white;
+    text-align: center;
+    width:85%;
+    height: 880px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.modal i{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    /* float: right; */
+    /* text-align: right; */
+}
+.modal h2{
+    text-align: center;
+}
+button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+    border: none;
+    width:180px;
+    height: 50px;
+    margin: auto;
+    color:white;
+}
+button i{
+    margin-right: 5px;
+}
+.button h3{
+    margin-top:5px;
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MilliSoft</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+      }
+      .sekiller {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+      }
+      .sekil {
+        width: 22%;
+        height: 320px;
+        margin-bottom: 30px;
+      }
+      .item {
+        width: 100%;
+        height: 268px;
+        border: 1px solid;
+      }
+      .item img {
+        width: 100%;
+        height: 100%;
+      }
+      .sekil-text {
+        width: 100%;
+        height: 52px;
+        line-height: 52px;
+      }
+      ul {
+        width: 50%;
+        margin: 30px auto;
+        list-style: none;
+        display: flex;
+        font-weight: 600;
+        font-size: 30px;
+        justify-content: space-around;
+      }
+      ul li {
+        position: relative;
+      }
+      .active {
+        color: green;
+      }
+      .active::after {
+        content: url(http://ecoharvest.farm/img/shape/1.png);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 15px;
+        width: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li class="active" filter="btn1">Btn1</li>
+        <li filter="btn2">Btn2</li>
+        <li filter="btn3">Btn3</li>
+        <li filter="btn4">Btn4</li>
+      </ul>
+      <div class="sekiller">
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var btns = document.querySelectorAll("ul li");
+      btns.forEach((x) => {
+        if (x.className != "active") {
+            document.querySelectorAll(".sekil").forEach((item) => {
+            if (item.className.includes(x.getAttribute("filter"))) {
+              item.style.display = "none ";
+            }
+          });
+        }
+      });
+
+      btns.forEach((x) => {
+        x.addEventListener("click", function () {
+          btns.forEach((y) => {
+            y.classList.remove("active");
+          });
+          x.classList.add("active");
+          document.querySelectorAll(".sekil").forEach((item) => {
+            if (item.className.includes(x.getAttribute("filter"))) {
+              item.style.display = "block";
+            } else {
+              item.style.display = "none ";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <title>Document</title>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.dordlu{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin:auto;
+}
+.dordlu h4{
+  margin:4%;
+  font-size: 25px;
+}
+.active {
+  color: green;
+}
+.active::after {
+  content: url(http://ecoharvest.farm/img/shape/1.png);
+  position: absolute;
+  left: 459px;
+  right: 0;
+  top: 115px;
+  width: 90%;
+}
+.sekiller{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sekiller .sekil .btn1{
+    width: 27%;
+    height: 170px;
+    margin:2%;
+}
+.item{
+  width: 100%;
+}
+.item img{
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+}
+  </style>
+</head>
+<body>
+  <div class="dordlu">
+    <h4 class="active" filter="btn1">Btn1</h4>
+    <h4>Btn2</h4>
+    <h4>Btn3</h4>
+    <h4>Btn4</h4>
+  </div>
+
+   <div class="sekiller">
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn1">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/rich%20may%20peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn2">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/summer%20sweet%20peach.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn3">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/white-peach%20.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+        <div class="sekil btn4">
+          <div class="item">
+            <img
+              src="http://ecoharvest.farm/img/NewCategory/peach%20flat.png"
+            />
+          </div>
+          <div class="sekil-text">
+            <h4>Rich May</h4>
+          </div>
+        </div>
+  
+
+
+
+  <script>
+
+  </script>
+</body>
+</html> -->

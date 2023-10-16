@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.exam1{
+    background-color: blue;
+    box-shadow: 5px 10px 15px rgb(116, 116, 203); 
+    border-radius: 15px;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    margin:70px auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.flex{
+    width: 60%;
+    height: 200px;
+    margin:40px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.flex button{
+    position: relative;
+    background-color: aliceblue;
+    width: 49%;
+    margin: auto;
+    height: 50px;
+}
+.exam2{
+    background-color: blue;
+    box-shadow: 5px 10px 15px rgb(116, 116, 203); 
+    border-radius: 15px;
+    width: 45%;
+    display: block;
+    height: 150px;
+    position: absolute;
+    margin:70px auto;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom:0px;
+}
+.flex1{
+    width: 80%;
+    margin:40px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.flex1 button{
+    width: 30%;
+    height: 50px;
+    position: relative;
+    margin: auto;
+    background-color:aliceblue;
+}
+.mavi{
+    background-color: rgb(51, 51, 197);
+    box-shadow: 5px 10px 15px rgb(116, 116, 203); 
+    width: 80%;
+    margin:35px auto;
+    height: 500px;
+    padding-top: 30px;
+}
+.ilk{
+    background-color: blue;
+    box-shadow: 5px 10px 15px rgb(116, 116, 203); 
+    width: 70%;
+    margin: auto;
+    height: 70px;
+    color: aliceblue;
+}
+.dordlu{
+    width: 80%;
+    margin: 40px auto;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.dordlu h2{
+    width: 350px;
+    height: 40px;
+    border: 1px solid aliceblue;
+}
+.pagination{
+    margin: auto;
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+.btnlar{
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    display: flex;
+}
+.btnlar button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.netice{
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 5px 10px 15px rgb(116, 116, 203); 
+    border-radius: 15px;
+    margin:70px auto;
+    text-align: center;
+    width: 55%;
+    height: 290px;
+}
+.netice h5{
+    font-size:38px;
+}
+.netice h3{
+    margin-top:20px;
+}
+.yasil{
+    background-color: green;
+}
+.qirmizi{
+    background-color: red;
+}
+.deyismez{
+    pointer-events: none;
+}

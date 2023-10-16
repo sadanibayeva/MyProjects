@@ -1,0 +1,33 @@
+.div{
+    width:75%;
+    height: 700px;
+    margin: auto;
+}
+.div p{
+    width:2%;
+    margin:150px 5px;
+    text-align: center;
+    height:20px;
+    background-color: black;
+    color:white;
+}
+.first{
+    display:flex;
+    justify-content: center;    
+}
+.first img{
+    width:350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.second img{
+    border-radius: 10px;
+    margin-top:5px;
+    width:200px;
+    height:200px;
+    margin:2px;
+}
